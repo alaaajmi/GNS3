@@ -1,0 +1,74 @@
+May 25 18:01:00.839 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 25 18:01:00.839 HYPERVISOR: Started on IP = localhost, TCP port = 63849.
+May 25 18:01:01.329 HYPERVISOR: exec_cmd: hypervisor version 
+May 25 18:01:01.329 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user pc\GNS3\projects\VRRP_lap\project-files\dynamips 
+May 25 18:01:01.329 GENERAL: working_dir=C:\Users\user pc\GNS3\projects\VRRP_lap\project-files\dynamips
+May 25 18:01:01.329 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user pc\GNS3\projects\VRRP_lap\project-files\dynamips\9a4077b3-9b85-4e86-92a7-d6e6563af93e 
+May 25 18:01:01.354 GENERAL: working_dir=C:\Users\user pc\GNS3\projects\VRRP_lap\project-files\dynamips\9a4077b3-9b85-4e86-92a7-d6e6563af93e
+May 25 18:01:01.354 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+May 25 18:01:01.359 VM: VM R2 created.
+May 25 18:01:01.359 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+May 25 18:01:01.359 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+May 25 18:01:01.359 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:01:01.359 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+May 25 18:01:01.359 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 25 18:01:01.374 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:01:01.374 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60630d08 
+May 25 18:01:01.374 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+May 25 18:01:01.374 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+May 25 18:01:01.374 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+May 25 18:01:01.374 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+May 25 18:01:01.426 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 25 18:01:09.881 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 25 18:02:53.841 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:02:53.841 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+May 25 18:02:53.843 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:02:53.843 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
+May 25 18:03:39.464 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+May 25 18:03:39.464 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\user pc\GNS3\projects\VRRP_lap\project-files\dynamips\c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost 
+May 25 18:03:39.464 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:03:39.470 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+May 25 18:03:39.470 HYPERVISOR: exec_cmd: vm start R2 
+May 25 18:03:43.768 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:03:43.768 HYPERVISOR: exec_cmd: vm set_idle_pc_online R2 0 0x0 
+May 25 18:03:43.768 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:03:43.768 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:03:43.770 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R2 0 
+May 25 18:03:59.633 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:03:59.635 HYPERVISOR: exec_cmd: vm set_idle_pc_online R2 0 0x641a83e0 
+May 25 18:03:59.635 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+May 25 18:04:02.657 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+May 25 18:04:02.657 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:04:02.657 HYPERVISOR: exec_cmd: vm set_idle_pc_online R2 0 0x641a83e4 
+May 25 18:04:02.657 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+May 25 18:04:05.662 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+May 25 18:04:05.662 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:04:05.662 HYPERVISOR: exec_cmd: vm set_idle_pc_online R2 0 0x60630d08 
+May 25 18:04:05.662 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+May 25 18:04:08.669 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+May 25 18:04:10.637 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 25 18:04:40.655 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 25 18:04:43.235 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:04:43.240 HYPERVISOR: exec_cmd: vm set_idle_pc_online R2 0 0x641a83e4 
+May 25 18:05:06.574 HYPERVISOR: exec_cmd: nio create_udp udp-2d1b8bb7-b529-48d9-b5c1-111b575bc914 10008 127.0.0.1 10009 
+May 25 18:05:06.874 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-2d1b8bb7-b529-48d9-b5c1-111b575bc914 
+May 25 18:05:06.874 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:05:06.874 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 0 
+May 25 18:05:29.826 HYPERVISOR: exec_cmd: nio create_udp udp-c7201462-23c1-49f8-85fe-7f7caa8ddc0b 10022 127.0.0.1 10023 
+May 25 18:05:29.852 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-c7201462-23c1-49f8-85fe-7f7caa8ddc0b 
+May 25 18:05:29.852 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:05:29.852 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 1 
+May 25 18:17:39.455 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 25 18:44:39.778 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:44:39.778 HYPERVISOR: exec_cmd: vm stop R2 
+May 25 18:44:39.933 VM: VM R2 shutdown.
+May 25 18:44:39.933 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 25 18:46:43.866 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+May 25 18:46:43.866 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\user pc\GNS3\projects\VRRP_lap\project-files\dynamips\c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost 
+May 25 18:46:43.866 HYPERVISOR: exec_cmd: vm get_status R2 
+May 25 18:46:43.874 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg configs\i2_private-config.cfg 
+May 25 18:46:43.874 HYPERVISOR: exec_cmd: vm start R2 
+May 25 18:56:27.840 HYPERVISOR: Stopped.
+May 25 18:56:28.037 VM: VM R2 shutdown.
+May 25 18:56:28.037 VM: VM R2 destroyed.
+May 25 18:56:28.037 GENERAL: reset done.
