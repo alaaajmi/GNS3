@@ -1,0 +1,78 @@
+May 19 09:28:53.063 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 19 09:28:53.064 HYPERVISOR: Started on IP = localhost, TCP port = 65383.
+May 19 09:28:53.546 HYPERVISOR: exec_cmd: hypervisor version 
+May 19 09:28:53.546 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips 
+May 19 09:28:53.546 GENERAL: working_dir=C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips
+May 19 09:28:53.546 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\6362f1be-775b-4da4-9b0d-f30556158ec6 
+May 19 09:28:53.576 GENERAL: working_dir=C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\6362f1be-775b-4da4-9b0d-f30556158ec6
+May 19 09:28:53.576 HYPERVISOR: exec_cmd: vm create R6 6 c7200 
+May 19 09:28:53.576 VM: VM R6 created.
+May 19 09:28:53.576 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5005 
+May 19 09:28:53.591 HYPERVISOR: exec_cmd: c7200 get_mac_addr R6 
+May 19 09:28:53.591 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:28:53.591 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 C7200-IO-FE 
+May 19 09:28:53.591 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:28:53.595 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:28:53.595 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60186e04 
+May 19 09:28:53.595 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+May 19 09:28:53.595 HYPERVISOR: exec_cmd: vm set_ram R6 512 
+May 19 09:28:53.595 HYPERVISOR: exec_cmd: vm set_nvram R6 512 
+May 19 09:28:53.595 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+May 19 09:28:53.647 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:28:55.287 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:29:11.562 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+May 19 09:29:11.562 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost 
+May 19 09:29:11.562 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:29:11.582 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+May 19 09:29:11.582 HYPERVISOR: exec_cmd: vm start R6 
+May 19 09:29:20.684 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:29:22.688 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:29:26.616 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:29:26.616 HYPERVISOR: exec_cmd: vm set_idle_pc_online R6 0 0x0 
+May 19 09:29:26.616 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:29:26.616 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:29:26.627 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R6 0 
+May 19 09:29:42.531 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 19 09:29:42.567 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:29:42.567 HYPERVISOR: exec_cmd: vm set_idle_pc_online R6 0 0x641a83e0 
+May 19 09:29:42.567 HYPERVISOR: exec_cmd: vm cpu_usage R6 0 
+May 19 09:29:45.571 HYPERVISOR: exec_cmd: vm cpu_usage R6 0 
+May 19 09:29:45.571 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:29:45.571 HYPERVISOR: exec_cmd: vm set_idle_pc_online R6 0 0x641a83e4 
+May 19 09:29:45.571 HYPERVISOR: exec_cmd: vm cpu_usage R6 0 
+May 19 09:29:48.571 HYPERVISOR: exec_cmd: vm cpu_usage R6 0 
+May 19 09:29:48.571 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:29:48.571 HYPERVISOR: exec_cmd: vm set_idle_pc_online R6 0 0x60630d08 
+May 19 09:29:48.571 HYPERVISOR: exec_cmd: vm cpu_usage R6 0 
+May 19 09:29:51.586 HYPERVISOR: exec_cmd: vm cpu_usage R6 0 
+May 19 09:30:12.395 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 19 09:31:39.354 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:31:39.356 HYPERVISOR: exec_cmd: vm set_idle_pc_online R6 0 0x60186e04 
+May 19 09:32:10.317 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:32:10.317 HYPERVISOR: exec_cmd: vm set_idle_pc_online R6 0 0x641a83e4 
+May 19 09:33:16.709 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:33:16.718 HYPERVISOR: exec_cmd: vm set_idle_pc_online R6 0 0x60630d08 
+May 19 09:33:46.341 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:34:07.231 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:34:07.231 HYPERVISOR: exec_cmd: vm stop R6 
+May 19 09:34:07.368 VM: VM R6 shutdown.
+May 19 09:34:07.368 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 19 09:34:15.271 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:34:15.272 HYPERVISOR: exec_cmd: vm slot_remove_binding R6 0 0 
+May 19 09:34:15.272 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:34:15.272 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 C7200-IO-2FE 
+May 19 09:34:19.247 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:34:19.247 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 19 09:35:04.694 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+May 19 09:35:04.704 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost 
+May 19 09:35:04.704 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:35:04.711 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+May 19 09:35:04.711 HYPERVISOR: exec_cmd: vm start R6 
+May 19 09:35:18.233 HYPERVISOR: exec_cmd: nio create_udp udp-9535d228-8b1e-49ff-aea7-1c92805af174 10002 127.0.0.1 10003 
+May 19 09:35:18.602 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-9535d228-8b1e-49ff-aea7-1c92805af174 
+May 19 09:35:18.602 HYPERVISOR: exec_cmd: vm get_status R6 
+May 19 09:35:18.602 HYPERVISOR: exec_cmd: vm slot_enable_nio R6 0 0 
+May 19 10:03:06.335 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 19 11:27:07.938 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 19 11:27:32.142 HYPERVISOR: exec_cmd: nio bind_filter udp-9535d228-8b1e-49ff-aea7-1c92805af174 2 capture 
+May 19 11:27:32.142 HYPERVISOR: exec_cmd: nio setup_filter udp-9535d228-8b1e-49ff-aea7-1c92805af174 2 en10mb C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\captures\R6_FastEthernet00_to_R1_FastEthernet00.pcap 

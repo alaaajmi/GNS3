@@ -1,0 +1,93 @@
+May 19 09:28:49.889 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 19 09:28:49.889 HYPERVISOR: Started on IP = localhost, TCP port = 65377.
+May 19 09:28:50.387 HYPERVISOR: exec_cmd: hypervisor version 
+May 19 09:28:50.393 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips 
+May 19 09:28:50.394 GENERAL: working_dir=C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips
+May 19 09:28:50.394 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\c2122ae7-2fc9-4942-bfb7-d3f670cf8214 
+May 19 09:28:50.418 GENERAL: working_dir=C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\c2122ae7-2fc9-4942-bfb7-d3f670cf8214
+May 19 09:28:50.418 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+May 19 09:28:50.432 VM: VM R5 created.
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60186e04 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+May 19 09:28:50.432 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+May 19 09:28:50.496 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:28:59.858 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/user pc/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+May 19 09:29:51.681 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:29:51.681 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60630d08 
+May 19 09:31:39.175 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:31:39.185 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60186e04 
+May 19 09:32:10.123 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:10.126 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x641a83e4 
+May 19 09:32:15.962 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+May 19 09:32:15.964 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost 
+May 19 09:32:15.964 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:15.972 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+May 19 09:32:15.972 HYPERVISOR: exec_cmd: vm start R5 
+May 19 09:32:18.854 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:18.854 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x0 
+May 19 09:32:18.854 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:18.854 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:18.856 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R5 0 
+May 19 09:32:34.653 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:34.653 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x641a8d90 
+May 19 09:32:34.655 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:32:37.659 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:32:37.659 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:37.659 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x641a8d94 
+May 19 09:32:37.659 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:32:40.662 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:32:40.662 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:40.662 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x6018be34 
+May 19 09:32:40.662 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:32:43.666 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:32:46.670 HYPERVISOR: exec_cmd: vm extract_config R5 
+May 19 09:32:51.538 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:51.538 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x0 
+May 19 09:32:51.540 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:51.540 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:32:51.540 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R5 0 
+May 19 09:33:07.352 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:33:07.352 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x641a83e0 
+May 19 09:33:07.352 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:33:10.359 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:33:10.359 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:33:10.359 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x641a83e4 
+May 19 09:33:10.361 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:33:13.367 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:33:13.367 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:33:13.367 HYPERVISOR: exec_cmd: vm set_idle_pc_online R5 0 0x60630d08 
+May 19 09:33:13.367 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:33:16.365 HYPERVISOR: exec_cmd: vm cpu_usage R5 0 
+May 19 09:33:16.670 HYPERVISOR: exec_cmd: vm extract_config R5 
+May 19 09:34:19.247 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:34:19.247 HYPERVISOR: exec_cmd: vm stop R5 
+May 19 09:34:19.399 VM: VM R5 shutdown.
+May 19 09:34:19.399 HYPERVISOR: exec_cmd: vm extract_config R5 
+May 19 09:34:58.650 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:34:58.650 HYPERVISOR: exec_cmd: vm slot_remove_binding R5 0 0 
+May 19 09:34:58.650 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:34:58.650 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-2FE 
+May 19 09:35:04.684 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+May 19 09:35:04.692 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\dynamips\c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost 
+May 19 09:35:04.694 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:35:04.704 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+May 19 09:35:04.704 HYPERVISOR: exec_cmd: vm start R5 
+May 19 09:35:40.169 HYPERVISOR: exec_cmd: nio create_udp udp-edc66ff5-1796-4d41-9463-188fb1147d15 10020 127.0.0.1 10021 
+May 19 09:35:40.458 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 0 udp-edc66ff5-1796-4d41-9463-188fb1147d15 
+May 19 09:35:40.458 HYPERVISOR: exec_cmd: vm get_status R5 
+May 19 09:35:40.458 HYPERVISOR: exec_cmd: vm slot_enable_nio R5 0 0 
+May 19 10:02:36.047 HYPERVISOR: exec_cmd: vm extract_config R5 
+May 19 11:09:00.161 HYPERVISOR: exec_cmd: nio bind_filter udp-edc66ff5-1796-4d41-9463-188fb1147d15 2 capture 
+May 19 11:09:00.161 HYPERVISOR: exec_cmd: nio setup_filter udp-edc66ff5-1796-4d41-9463-188fb1147d15 2 en10mb C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\captures\R5_FastEthernet00_to_R3_FastEthernet01.pcap 
+May 19 11:27:07.939 HYPERVISOR: exec_cmd: vm extract_config R5 
+May 19 11:41:35.620 HYPERVISOR: exec_cmd: nio unbind_filter udp-edc66ff5-1796-4d41-9463-188fb1147d15 2 
+May 19 11:41:40.219 HYPERVISOR: exec_cmd: nio bind_filter udp-edc66ff5-1796-4d41-9463-188fb1147d15 2 capture 
+May 19 11:41:40.219 HYPERVISOR: exec_cmd: nio setup_filter udp-edc66ff5-1796-4d41-9463-188fb1147d15 2 en10mb C:\Users\user pc\GNS3\projects\lap_redistrbute\project-files\captures\R5_FastEthernet00_to_R3_FastEthernet01.pcap 
